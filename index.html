@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web con tabla avanzada y formulario</title>
+</head>
+<body>
+
+    <table id="tabla-avanzada">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+            <th>Genero</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan</td>
+            <td>Pérez</td>
+            <td>25</td>
+            <td>Masculino</td>
+          </tr>
+          <tr>
+            <td>María</td>
+            <td>López</td>
+            <td>23</td>
+            <td>Femenino</td>
+          </tr>
+          <tr>
+            <td>Pedro</td>
+            <td>García</td>
+            <td>30</td>
+            <td>Indefinido</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total de personas: 3</td>
+          </tr>
+        </tfoot>
+      </table>
+    
+      <form >
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellidos" placeholder="Apellidos">
+        <input type="number" name="edad" placeholder="Edad">
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="femenino"> Femenino
+        <input type="checkbox" name="hobbies[]" value="leer"> Leer
+        <input type="checkbox" name="hobbies[]" value="escribir"> Escribir
+        <input type="checkbox" name="hobbies[]" value="viajar"> Viajar
+        <input type="text" name="color_favorito" placeholder="Color favorito"> 
+        <input type="number" name="numero_favorito" placeholder="Numero favorito"> 
+        <input type="date" name="fecha_nacimiento"> Fecha de nacimiento
+        <input type="time" name="hora_favorita"> Hora favorita
+        <input type="url" name="sitio_web" placeholder="sitio web favorito"> 
+        <input type="email" name="correo_electronico" placeholder="Correo electrónico">
+        <input type="password" name="contrasena" placeholder="Contraseña"> 
+        <input type="submit" value="Enviar">
+      </form>
+    
+</body>
+</html>
